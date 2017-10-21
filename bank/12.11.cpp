@@ -63,3 +63,8 @@ bool Queue::dequeue(Item & item)                  //链表头删除 顾客 对象
 		rear = nullptr;
 	return true;
 }
+void Customer ::set(long when)                    //设置顾客取款所需时间
+{
+	processtiome = std::rand() % 3 + 1;
+	arrive = when;
+}

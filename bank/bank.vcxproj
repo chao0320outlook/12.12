@@ -148,7 +148,6 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="12.10.cpp" />
     <ClCompile Include="12.11.cpp" />
     <ClCompile Include="bank.cpp" />
     <ClCompile Include="stdafx.cpp">

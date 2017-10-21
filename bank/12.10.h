@@ -10,7 +10,7 @@ private:
 public:
 	Customer() { arrive = processtiome = 0; }            //构造函数，初值均设为0
 
-	void set(long when);
+	void set(long when);                                 //设置顾客取款所需时间
 	long when()const { return arrive; };
 	int ptime()const { return processtiome; };
 };
